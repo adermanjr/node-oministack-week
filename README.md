@@ -1,0 +1,1 @@
+Learning NodeJS by https://rocketseat.com.br/ tutorial in omnistack week 10
