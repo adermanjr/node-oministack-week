@@ -13,5 +13,10 @@ app.use(express.json());
 app.use(routes);
 
 
-//app.listen(process.env.PORT);
-app.listen(3333);
+//app.listen(process.env.PORT); -> AWS
+//app.listen(3333);
+
+const PORT = process.env.PORT || 3333;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
